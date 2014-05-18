@@ -15,14 +15,6 @@ The data is comma delimited data with column headers.  read.csv will load the da
 activity = read.csv("activity.csv")
 ```
 
-```
-## Warning: cannot open file 'activity.csv': No such file or directory
-```
-
-```
-## Error: cannot open the connection
-```
-
 
 Convert the character representation of "date" into a object of class date and assign it to a new variable, posixDate
 
