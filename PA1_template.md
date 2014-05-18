@@ -4,7 +4,7 @@ This is a response to Reproducible Research, Peer Assignment 1.  You can find th
 described in the readme file in the [github repository] (https://github.com/PaulKjer/RepData_PeerAssessment1) for this assignment.
 
 ###  Notes and Assumptions
-- the "mice" package is used in the imputation of data.  This process assumes the mice package has already been installed. 
+- the function "complete" from the "mice" package is used in the imputation of data.  This process assumes the mice package has already been installed. 
 - the file "activity.csv" is available in the current working directory.
 - echo is required by the assignment and on by default.  The default is used and not explicitly turned on.
 
@@ -13,14 +13,6 @@ The data is comma delimited data with column headers.  read.csv will load the da
 
 ```r
 activity = read.csv("activity.csv")
-```
-
-```
-## Warning: cannot open file 'activity.csv': No such file or directory
-```
-
-```
-## Error: cannot open the connection
 ```
 
 
